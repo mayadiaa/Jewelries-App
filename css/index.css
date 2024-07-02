@@ -1,0 +1,764 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+}
+/* section one start */
+#NavSec{
+    height: 10rem;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 3rem 6%;
+   
+
+}
+/* #NavSec h3{
+
+position: absolute;
+
+left: 36rem;
+} */
+#NavSec a{
+    padding-left: 0.5rem;
+    color: #777;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+#NavSec a:hover{
+    cursor: pointer;
+    color: rgb(8, 8, 8);
+    transition: all 400ms ease;
+}
+#NavSec i{
+    font-size: 0.7rem;
+}
+/* #NavSec input{
+    margin-left: 18rem;
+   width:20rem;
+} */
+#CartDiv{
+    margin-left: 51rem;
+}
+#CartDiv button{
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    border: 1px solid #bfc9d8;
+    color: #777;
+}
+#CartDiv button:hover{
+    background-color: black;
+    color: #888787;
+    transition: all 700ms ease;
+}
+/* @media screen and (max-width: 778px){
+    #CartDiv{}
+    #CartDiv button{}
+}  */
+/* section two start */
+#header{
+    height: 19rem;
+    display: flex;
+    background-color: white;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+#header h1{
+    margin-top: -7rem;
+    margin-left: 0;
+    font: 120px/1em Yesteryear;
+   
+}
+#header p{
+    position: absolute;
+    letter-spacing: 1.5rem;
+    margin-left: -2rem;
+}
+/* section three start */
+#SectionThree{
+    height: 135vh;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+#SectionThree ul{
+    display: flex;
+}
+#SectionThree ul li{
+    padding: 3rem;
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+#SectionThree ul li a{
+    color: #777;
+    text-decoration: none;
+}
+#SectionThree ul li a:hover{
+    color: black;
+    transition: all 700ms ease;
+    cursor: pointer;
+}
+#topDiv{
+    height: 65vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.ImgFit{
+   
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    
+}
+#Div1{ 
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+
+#Div2{
+    height: 65vh;
+    background-color: #bfc9d8;
+    position: relative;
+}
+
+#BtmDiv{
+    height: 51vh;
+    background-color: rgb(109, 134, 201);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#Btm1{
+    height: 51vh;
+   
+  
+}
+
+#Btm2{
+    height: 51vh;
+    
+}
+
+#Btm3{
+    height: 51vh;
+   
+}
+#Btm4{
+    height: 51vh;
+   
+}
+.zoomin{
+    height: 51vh;
+    
+}
+.zoomin img{
+transform: scale(1);
+transition: 0.3s ease-in;
+}
+.zoomin img:hover{
+    transform: scale(1.1);
+}
+.zoomin1{
+    height: 65vh;
+}
+.zoomin1 img{
+    transform: scale(1);
+    transition: 0.3s ease-in;
+    }
+ .zoomin1 img:hover{
+        transform: scale(1.2);
+    }
+    .contentDiv{
+        position: absolute;
+        top: 7rem;
+        text-align: center;
+        color: white;
+    }
+    .contentDiv h1{
+        font-size: 4.5rem; 
+    }
+    .contentDiv span a{
+        color: white;
+        font-size: 1.6rem;
+    }
+    .contentDiv span a:hover{
+       
+        text-decoration: none;
+        
+    }
+    #contentDiv1{
+        position: absolute;
+        top: 7rem;
+        text-align: center;
+        color: white;
+        margin-left: 0;
+    }
+    #conDiv2{
+        position: absolute;
+        color: black;
+        text-align: center;
+        top: 7rem;
+        margin-left: 0;
+
+    }
+    #conDiv2 h1{
+        font-size: 2rem;
+    }
+    #conDiv2 span a{
+        color: black;
+        font-size: 1.3rem;
+    }
+    #conDiv2 span a:hover{
+        text-decoration: none; 
+    }
+    #conDiv3{
+        position: absolute;
+        text-align: center;
+        top: 7rem;
+        color: white;
+        margin-left: 0;
+    }
+    #conDiv3 span a{
+        color: white;
+        font-size: 1.3rem;
+    }
+    #conDiv3 span a:hover{
+        text-decoration: none; 
+    }
+    #conDiv4{
+        position: absolute;
+        text-align: center;
+        top: 7rem;
+        color: black;
+        margin-left: 0;
+    }
+    #conDiv4 span a{
+        color: black;
+        font-size: 1.3rem;
+    }
+    #conDiv4 span a:hover{
+        text-decoration: none; 
+    }
+    #conDiv5{
+        position: absolute;
+        text-align: center;
+        top: 7rem;
+        color: white;
+        margin-left: 0;
+    }
+    #conDiv5 span a{
+        color: white;
+        font-size: 1.3rem;
+    }
+    #conDiv5 span a:hover{
+        text-decoration: none; 
+    }
+    .conP{
+        font-size: 0.8rem;
+         margin: 2rem;
+    }
+
+ 
+/*  section four start */
+#sec4{
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+#sec4 a button{
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    border: 1px solid #bfc9d8;
+    color: #777;
+    margin-top: 1rem;
+    width: 11rem;
+}
+
+#sec4 a button:hover{
+    background-color: black;
+    color: #888787;
+    transition: all 500ms ease;
+}
+#sec5{
+    background-color: white;
+    height: 79vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#videocontent{
+    position: absolute;
+    color: white;
+}
+#videocontent h1{
+    font-size: 4.5rem;
+}
+
+/* video section start */
+#videoSection{
+    height: 84vh;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#VideoDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#VideoDiv p{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: #777777;
+}
+/* section six start */
+#sec6{
+    height: 117vh;
+    /* display: flex; */
+    background-color: white;
+}
+.access{
+    margin-top: 0;
+}
+#FDive{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#SDiv{
+    height: 76vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+.Accessories{
+    height: 40vh;
+    background-color: black;
+    margin: 2rem;
+}
+.Accessories h1{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.Accessories  p{
+    color: #777;
+    text-align: center;
+}
+.Btn{
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #bfc9d8;
+    color: #777;
+    margin-left: 3rem;
+    width: 9rem;
+}
+.Btn:hover{
+    background-color: black;
+    color: white;
+    transition: all 500ms ease;
+}
+#VideoDiv h1{
+    font-size: 3.5rem;
+}
+
+/* sec7 start */
+#Sec7{
+    height: 70vh;
+    display: flex;
+    background-image: url(photos/bg.webp);
+    background-position: 0%;
+    background-size: cover;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 4rem;
+}
+
+/* footer start */
+footer{
+    height: 70vh;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.FootDiv{
+    height: 50vh;
+    background-color: white;
+    margin: 2rem;
+}
+.FootDiv h1{
+    font-size: 2rem;
+}
+.FootDiv ul{
+    margin-top: 2rem;
+}
+.FootDiv ul a {
+    color: #777;
+    text-decoration: none;
+}
+.FootDiv ul a:hover{
+color: black;
+transition: all 600ms ease;
+}
+.FootDiv ul a li{
+    margin: 0.8rem;
+    list-style: none;
+}
+.Li{
+    list-style: none;
+    margin: 0.5rem;
+    background-color: #777;
+    border-radius: 8rem;
+    width: 28%;
+    height: 6vh;
+    text-align: center;
+}
+.Li i{
+    font-size: 1.6rem;
+    margin-top: 0.7rem;
+    color: white;
+    transform: scale(1);
+    transition: 0.1s ease-in;
+}
+.Li i:hover{
+    transform: scale(1.3);
+}
+footer p a{
+    color: #777;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: black;
+    
+}
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    #NavSec{
+        height: 13rem;
+    }
+    #CartDiv{
+        margin-left: 7rem;
+    }
+    #header h1{
+        margin-left: 8px;
+    }
+    #SectionThree{
+        height: 352vh;
+    }
+    #SectionThree ul li{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    #header p{
+        margin-left: 3rem;
+    }
+    #topDiv {
+        height: 130vh;}
+    #BtmDiv {
+        height: 204vh;
+    }
+    #conDiv5 {
+        top: 73rem;
+        margin-left: 4rem;
+    }
+    #conDiv4 {
+        top: 49rem;
+        margin-left: 4rem;
+    }
+    #conDiv3 {
+        top: 27rem;
+        margin-left: 4rem;
+    }
+    #conDiv2 {
+        margin-left: 4rem;
+    }
+     #sec4 {
+        height: 62vh;
+        }
+     #sec5 video {
+        display: none;
+     }
+     #videocontent{
+        color: #777;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     }
+     #sec6 {
+        height: 163vh;
+     }
+     .access{
+        margin-top: 13rem;
+     }
+     .Accessories {
+        height: 28vh;}
+        .Btn {
+            margin-left: 1rem;
+        }
+        #videoSection {
+            height: 64vh;}
+            #VideoDiv h1{
+                font-size: 2.5rem;
+            }
+            footer {
+                height: 137vh;
+            }
+            .FootDiv h1 {
+                font-size: 1.5rem;
+            }
+}
+
+
+
+/* @media screen and (min-width: 1030px) and (max-width: 1189px){}
+@media screen and (max-width: 880px){} */
+
+@media only screen and (max-width:767px) and (min-width: 601px) {
+    #NavSec{
+        height: 13rem;
+    }
+    #CartDiv{
+        margin-left: 15rem;
+    }
+    #header h1{
+        margin-left: 8px;
+    }
+    #SectionThree{
+        height: 352vh;
+    }
+    #SectionThree ul li{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    #header p{
+        margin-left: 3rem;
+    }
+    #topDiv {
+        height: 130vh;}
+    #BtmDiv {
+        height: 204vh;
+    }
+    #conDiv5 {
+        top: 73rem;
+        margin-left: 10rem;
+    }
+    #conDiv4 {
+        top: 49rem;
+        margin-left: 10rem;
+    }
+    #conDiv3 {
+        top: 27rem;
+        margin-left: 10rem;
+    }
+    #conDiv2 {
+        margin-left: 10rem;
+    }
+     #sec4 {
+        height: 62vh;
+        }
+
+     #videocontent h1{
+        font-size: 3.5rem;
+     }
+     #sec6 {
+        height: 163vh;
+     }
+     .access{
+        margin-top: 13rem;
+     }
+     .Accessories {
+        height: 28vh;}
+        .Btn {
+            margin-left: 3rem;
+        }
+        #videoSection {
+            height: 64vh;}
+            #VideoDiv h1{
+                font-size: 2.5rem;
+            }
+            footer {
+                height: 137vh;
+            }
+            .FootDiv h1 {
+                font-size: 1.5rem;
+            }
+}
+
+
+
+
+
+@media only screen and (max-width:992px) and (min-width: 768px) {
+    #NavSec{
+        height: 13rem;
+    }
+    #CartDiv{
+        margin-left: 15rem;
+    }
+    #header h1{
+        margin-left: 8px;
+    }
+    
+    #SectionThree ul li{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    #header p{
+        margin-left: 3rem;
+    }
+    #contentDiv1 {
+        top: 4rem;}
+
+    .contentDiv {
+        top: 4rem;}
+
+        .conP{
+            font-size: 0.5rem;
+        }
+    
+    #conDiv5 {
+        margin-left: -22px;
+    }
+    #conDiv4 {
+        margin-left: -22px;
+    }
+    #conDiv3 {
+        margin-left: -22px;
+    }
+    #conDiv2 {
+        margin-left: -22px;
+    }
+     #sec4 {
+        height: 62vh;
+        }
+
+     #videocontent h1{
+        font-size: 3.5rem;
+     }
+     #sec6 {
+        height: 114vh;
+     }
+     
+     .Accessories {
+        height: 28vh;
+        margin: 1rem;
+    }
+    .Accessories h1{
+        font-size: 1.5rem;
+    }
+   
+        .Btn {
+            margin-left: 0rem;
+        }
+        #videoSection {
+            height: 64vh;
+        }
+            #VideoDiv h1{
+                font-size: 2rem;
+            }
+            footer {
+                /* height: 74vh; */
+            }
+            .FootDiv h1 {
+                font-size: 1rem;
+            }
+            .FootDiv ul a li {
+                margin: 0.3rem;
+            }
+}
+@media only screen and (min-width:768px) and (max-width:783px){
+    .FootDiv ul a li {
+        margin: 0;
+    }
+    footer {
+        height: 88vh;
+    }
+
+   .FootDiv {
+    height: 31vh;
+    margin: 1rem;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1150px){
+    #CartDiv {
+        margin-left: 35rem;
+    }
+    #NavSec {
+        height: 13rem;
+    }
+}
